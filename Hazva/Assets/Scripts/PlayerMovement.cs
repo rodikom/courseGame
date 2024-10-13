@@ -1,42 +1,60 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 15f;
-    public float jumpForce = 10f;
-    public Transform groundCheck;
+    public Rigidbody2D rb;
+    public Transform groundChecker;
     public LayerMask groundLayer;
 
-    private Rigidbody2D rb;
-    private bool isGrounded;
-    private float groundCheckRadius = 0.2f;
+    private float horizontal;
+    private float speed = 8f;
+    private float jumpingPower = 8f;
+    private bool isFacingRight = true;
 
-    void Start()
+    private void Update()
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
-    void Update()
-    {
-        Move();
-        Jump();
-    }
-
-    void Move()
-    {
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
-    }
-
-    void Jump()
-    {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        if (isFacingRight && horizontal > 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Flip();
         }
+        else if (isFacingRight && horizontal < 0f)
+        {
+            Flip();
+
+        }
+    }
+
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if (context.performed && IsGrounded())
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+        }
+
+        if (context.canceled && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.05f);
+        }
+    }
+
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCircle(groundChecker.position, 0.2f, groundLayer);
+    }
+
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        //в очікуванні спрайтів, тоді буде видно
+    }
+
+    public void Move(InputAction.CallbackContext context)
+    {
+        horizontal = context.ReadValue<Vector2>().x;
     }
 }
