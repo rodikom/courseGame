@@ -44,23 +44,35 @@ TagManager:
   - name: Background
     uniqueID: 824527991
     locked: 0
-  - name: Tree
-    uniqueID: 1174595473
+  - name: Cloud
+    uniqueID: 370245455
     locked: 0
-  - name: Houses
-    uniqueID: 2521533125
+  - name: little_trees
+    uniqueID: 821217107
+    locked: 0
+  - name: treesback
+    uniqueID: 2156080033
     locked: 0
   - name: Garden
     uniqueID: 1991385037
     locked: 0
-  - name: Light
-    uniqueID: 3484413063
+  - name: Houses
+    uniqueID: 2521533125
+    locked: 0
+  - name: GardenOfHouses
+    uniqueID: 168098953
     locked: 0
   - name: Weapon
     uniqueID: 1467623845
     locked: 0
-  - name: Something
-    uniqueID: 3769335339
+  - name: Ground
+    uniqueID: 2620545805
+    locked: 0
+  - name: Light
+    uniqueID: 3484413063
+    locked: 0
+  - name: mainTree
+    uniqueID: 3036086467
     locked: 0
   - name: Player
     uniqueID: 529684859
