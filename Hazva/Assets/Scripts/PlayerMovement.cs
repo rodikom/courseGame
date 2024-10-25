@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,9 +11,18 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     private float horizontal;
+    [SerializeField]
+    [Range(0f, 15f)]
     private float speed = 8f;
-    private float jumpingPower = 8f;
+    private float jumpingPower = 11f;
+
     private bool isFacingRight = true;
+
+    private void FixedUpdate()
+    {
+       
+
+    }
 
     private void Update()
     {
@@ -22,10 +32,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
-        else if (isFacingRight && horizontal < 0f)
+        else if (!isFacingRight && horizontal < 0f)
         {
             Flip();
-
         }
     }
 
@@ -50,7 +59,9 @@ public class PlayerMovement : MonoBehaviour
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-        //в очікуванні спрайтів, тоді буде видно
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1; // Віддзеркалюємо спрайт по осі X
+        transform.localScale = localScale;
     }
 
     public void Move(InputAction.CallbackContext context)
