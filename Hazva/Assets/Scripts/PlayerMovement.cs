@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     [Range(0f, 15f)]
     private float speed = 8f;
+    [SerializeField]
+    [Range(0f, 35f)]
     private float jumpingPower = 11f;
 
     private bool isFacingRight = true;
@@ -47,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (context.canceled && rb.velocity.y > 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.05f);
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
     }
 
