@@ -1,68 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5884859c-9c78-4037-9493-69ead3a273da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Falling_Main.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Go_Main.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Jump_Main.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeFriction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChangeFriction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Garden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Houses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Main_C/Main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Main_C/Main.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Main_C/Staff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle_Main.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Idle_Main.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle_Main.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Idle_Main.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle_main.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Idle_main.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle_main.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Idle_main.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Main_C.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Background.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Clouds.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Clouds.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Clouds.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Clouds.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/GardenOfHouse.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/GardenOfHouse.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/GardenOfHouse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/GardenOfHouse.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Houses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Houses.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Houses.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/MainTree.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/MainTree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/MainTree.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/MainTree.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Trees(Back).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Trees(Back).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/Trees(Back).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Trees(Back).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/garden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/garden.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/Garden.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/grond.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/grond.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/grond.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/grond.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/lights.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/lights.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/lights.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/lights.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/littletrees.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/littletrees.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/littletrees.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/littletrees.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/weapon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/weapon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FirstLevel/weapon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/FirstLevel/weapon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_BW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_BW.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_BW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_BW.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_color.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_color.ai.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Go_Main.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_color.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_color.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/clan_emblem/clan_color.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Main_C/Staff.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/Run_Main.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Run_Main.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Material/Run_Main.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Run_Main.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Main_C/Jump_Main.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player Data/Player Data.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player Data/Player Data.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Falling_Main.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Idle_Main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Idle_Main.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="5884859c-9c78-4037-9493-69ead3a273da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,8 +26,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Merging main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -108,7 +56,11 @@
       <updated>1730545572657</updated>
       <workItem from="1730545574862" duration="7000" />
       <workItem from="1730735940178" duration="11000" />
+      <workItem from="1730739439500" duration="913000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
