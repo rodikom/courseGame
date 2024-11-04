@@ -20,16 +20,10 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isFacingRight = true;
 
-    private void FixedUpdate()
-    {
-       
-
-    }
-
     private void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-
+        
         if (isFacingRight && horizontal > 0f)
         {
             Flip();
