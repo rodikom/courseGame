@@ -27,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    private void OnMouseUpAsButton()
+    private void OnAnimatorMove()
     {
         _currentHP--;
 

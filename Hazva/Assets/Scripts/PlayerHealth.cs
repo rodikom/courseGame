@@ -16,30 +16,12 @@ public class PlayerHealth : MonoBehaviour
 
     public List<GameObject> enemies;
 
-    private void Start()
+    private void Awake()
     {
         enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
     }
-
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button
-        {
-            CheckForEnemyHit();
-        }
-    }
-
-    private void CheckForEnemyHit()
-    {
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
-
-        if (hit.collider != null && enemies.Contains(hit.collider.gameObject))
-        {
-            Debug.Log("Hit");
-            hit.collider.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
-        }
-    }
+    
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
