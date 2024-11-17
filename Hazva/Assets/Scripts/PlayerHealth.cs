@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class PlayerHealth : MonoBehaviour
 {
-    private int _maxHP = 3;
+    private int _maxHP = 10;
     private int _currentHP = 3;
 
     public int MaxHP { get => _maxHP; }
